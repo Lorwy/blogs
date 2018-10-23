@@ -2,10 +2,10 @@
 date: 2018-10-22
 title: "观 sunnyxx iOS 面试视频总结"
 tags:
-- 面试
+- interview
 - iOS
 categories:
-- 面试
+- interview
 comment: false
 ---
 # Review 简历
