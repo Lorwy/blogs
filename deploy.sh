@@ -1,4 +1,4 @@
-hugo --theme=Jane -buildDrafts --baseUrl="htt://lorwy.github.io/"
+#hugo --theme=Jane -buildDrafts --baseUrl="htt://lorwy.github.io/"
 
 #!/bin/bash
 if [ $# -lt  1 ]; then
@@ -7,17 +7,15 @@ if [ $# -lt  1 ]; then
 fi
 msg="$1"
 git commit -m "$msg"
-if [ $? -ne 0 ]; then
-    echo "Commit failed"
-    exit 1
-fi
+
 git push origin master
-if [ $? -ne 0 ]; then
-    echo "Push failed"
-fi
+
+
+
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 # Build the project.
-hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
+#hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
+hugo --theme=Jane -buildDrafts --baseUrl="htt://lorwy.github.io/"
 # Go To Public folder
 cd public
 # Add changes to git.
