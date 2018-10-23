@@ -6,11 +6,6 @@ if [ $# -lt  1 ]; then
     exit 1
 fi
 msg="$1"
-git commit -m "$msg"
-
-git push origin master
-
-
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 # Build the project.
