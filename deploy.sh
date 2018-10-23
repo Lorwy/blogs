@@ -7,7 +7,7 @@ if [ $# -lt  1 ]; then
 fi
 msg="$1"
 git add .
-#git rm --cached public
+git rm --cached public
 git commit -m "$msg"
 if [ $? -ne 0 ]; then
     echo "Commit failed"
