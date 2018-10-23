@@ -41,7 +41,7 @@ VIPER架构由5部分组成：
 5. Router
 
 示意图：
-![](pic/VIPER.jpeg)
+![](baseURL/VIPER.jpeg)
 
 #### 各模块说明
 ##### 视图层（View）
