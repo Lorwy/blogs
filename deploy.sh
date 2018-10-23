@@ -1,4 +1,4 @@
-#hugo --theme=Jane -buildDrafts --baseUrl="htt://lorwy.github.io/"
+#hugo --theme=Jane -buildDrafts --baseUrl="http://lorwy.github.io/"
 
 #!/bin/bash
 if [ $# -lt  1 ]; then
@@ -10,7 +10,7 @@ msg="$1"
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 # Build the project.
 #hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
-hugo --theme=Jane -buildDrafts --baseUrl="htt://lorwy.github.io/"
+hugo --theme=Jane -buildDrafts --baseUrl="http://lorwy.github.io/"
 # Go To Public folder
 cd public
 # Add changes to git.
