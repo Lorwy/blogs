@@ -35,10 +35,16 @@ paginate = 20
     weight = 2
     identifier = "post"
     url = "/post/"
+   [[menu.main]]
+    name = "Tags"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 3
+    identifier = "tags"
+    url = "/tags/"
   [[menu.main]]
     name = "About"
     pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 3
+    weight = 4
     identifier = "about"
     url = "/about/"
 
