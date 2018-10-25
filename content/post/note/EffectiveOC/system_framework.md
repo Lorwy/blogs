@@ -1,3 +1,13 @@
+---
+date: 2018-10-25
+title: "[Effective Objective-C 2.0]7系统框架Note"
+tags:
+- Objective-C
+- iOS
+categories:
+- Objective-C
+comment: false
+---
 # 47.熟悉系统框架
 ##· Foundation
 NSObject 、 NSArray 、 NSDictionary 等都属于其中，是最主要的框架
