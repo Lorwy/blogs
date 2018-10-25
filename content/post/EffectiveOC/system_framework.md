@@ -6,7 +6,7 @@ tags:
 - iOS
 categories:
 - Objective-C
-comment: false
+comment: true
 ---
 # 47.熟悉系统框架
 ## · Foundation
@@ -36,4 +36,12 @@ C 语言级别的网络通信能力，是将“BSD套接字”（BSD socket）�
 ## · CoreGraphics
 
 # 48.多用块枚举，少用 for 循环
+四种遍历方式：
+
+- for 循环
+- Objective-C 1.0 时代的 NSEnumerator 
+- 快速遍历
+- 基于枚举块的遍历
+
+## 要点：
 
