@@ -58,8 +58,8 @@ paginate = 20
   #stackoverflow = "*"
   #linkedin = "*"
 
-#[params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
-#  owner = "lorwy"              # Your GitHub ID
-#  repo = "https://github.com/Lorwy/comments"               # The repo to store comments
-#  clientId = "47c198d34cc04db2fb47"           # Your client ID
-#  clientSecret = "d5863f2227683cee76bb76c2389d165bc78d6bf8"       # Your client secret
+[params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
+  owner = "lorwy"              # Your GitHub ID
+  repo = "comments"               # The repo to store comments
+  clientId = "47c198d34cc04db2fb47"           # Your client ID
+  clientSecret = "d5863f2227683cee76bb76c2389d165bc78d6bf8"       # Your client secret

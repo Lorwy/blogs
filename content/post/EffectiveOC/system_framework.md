@@ -6,7 +6,7 @@ tags:
 - iOS
 categories:
 - Objective-C
-comment: false
+comment: true
 ---
 # 47.熟悉系统框架
 ## · Foundation
