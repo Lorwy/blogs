@@ -10,5 +10,5 @@ comment: false
 #mathjax: false
 ---
 
-这是一个学习、分享的地方！
+新博客，慢慢迁移咯！~~~~~~
 
